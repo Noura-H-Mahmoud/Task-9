@@ -1,14 +1,14 @@
 .default{
-    background-image: url(./../../assets/images/background.jpg);
+    background-image: url(https://img.freepik.com/free-photo/dark-room-with-light-background_1409-1809.jpg?t=st=1717661719~exp=1717665319~hmac=f2b321c5b6aab6a297ad4662fffc1e1f07e53c08a2d3a8a7ae75b794da67de30&w=2000);
 }
 .b-1000{
-    background-image: url(./../../assets/images/1000.jpg);
+    background-image: url(https://img.freepik.com/free-photo/grunge-style-background-blue-shades_1048-9596.jpg?t=st=1717662107~exp=1717665707~hmac=e9c7d3459a9fa1179753189831c1db8e7c1f2819ab01cc2ee4678088ec2794ac&w=1800);
 }
 .b-100{
-    background-image: url(./../../assets/images/100.jpg);
+    background-image: url(https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30436.jpg?t=st=1717661985~exp=1717665585~hmac=72bc7c3f47affc878f532b73b69cf59df239b3c338091daeb44edae981e3feac&w=2000);
 }
 .b-10{
-    background-image: url(./../../assets/images/10.jpg);
+    background-image: url(https://img.freepik.com/free-vector/watercolor-background_91008-17.jpg?t=st=1717661870~exp=1717665470~hmac=8a7f30846581397a5a68ff810cf5d8deca0ff7ccdea1da5af6801e8158630233&w=2000);
 }
 #NaHero {
     width: 100%;
@@ -17,8 +17,9 @@
     background-size: cover;
     position: relative;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
 }
 .NaH1Button{
     display: flex;
@@ -55,4 +56,15 @@ h1{
     border: none;
     font-size: 17px;
     
+}
+@media (max-width: 680px) {
+    #NaHero{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .NaPopUp{
+        width: 300px;
+        padding: 2rem 0;
+        font-size: 23px;
+    }
 }
